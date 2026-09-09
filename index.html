@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tejasri Brungi — AWS DevOps Engineer. Kubernetes, CI/CD, GitOps, Cloud Infrastructure." />
+  <title>Tejasri Brungi | AWS DevOps Engineer</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav id="navbar">
+    <div class="nav-logo" id="nav-logo"></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about"          class="nav-link">About</a></li>
+      <li><a href="#experience"     class="nav-link">Experience</a></li>
+      <li><a href="#skills"         class="nav-link">Skills</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact"        class="nav-link nav-cta">Hire Me</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ── -->
+    <section id="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="hero-content container">
+        <div class="hero-badge" id="hero-badge"></div>
+        <h1 class="hero-name" id="hero-name"></h1>
+        <p class="hero-title">
+          <span class="typing-prefix">I am a </span>
+          <span class="typing-text" id="typing-text"></span>
+          <span class="typing-cursor">|</span>
+        </p>
+        <p class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-stats" id="hero-stats"></div>
+        <div class="hero-cta" id="hero-cta"></div>
+      </div>
+      <div class="hero-scroll-hint">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ── About ── -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">About Me</h2>
+        <div class="about-grid">
+          <div class="about-summary animate-on-scroll" id="about-summary"></div>
+          <div class="about-highlights animate-on-scroll" id="about-highlights"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Experience ── -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Work Experience</h2>
+        <div class="timeline" id="experience-timeline"></div>
+      </div>
+    </section>
+
+    <!-- ── Skills ── -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+        <div class="skills-wrapper" id="skills-wrapper"></div>
+      </div>
+    </section>
+
+    <!-- ── Competencies ── -->
+    <section id="competencies" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Core Competencies</h2>
+        <div class="competencies-cloud animate-on-scroll" id="competencies-cloud"></div>
+      </div>
+    </section>
+
+    <!-- ── Certifications ── -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Certifications &amp; Workshops</h2>
+        <div class="certs-grid animate-on-scroll" id="certs-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── Education ── -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Education</h2>
+        <div class="education-grid animate-on-scroll" id="education-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── Contact ── -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+        <div class="contact-wrapper animate-on-scroll" id="contact-wrapper"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <p id="footer-text"></p>
+    </div>
+  </footer>
+
+  <!-- Configuration (single source of truth) -->
+  <script src="config.js"></script>
+  <!-- App logic -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
